@@ -44,7 +44,7 @@ export default async function paginationLaunch(
     let numberOfItem = hits;
     // console.log(numberOfItem);
     let limitPerPage = 9;
-    let totalPages = Math.ceil(hits / limitPerPage);
+    let totalPages = Math.ceil(numberOfItem / limitPerPage);
     let paginationSize = 7;
     if (window.screen.width <= 767) {
       paginationSize = 5;
