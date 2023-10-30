@@ -18,6 +18,8 @@ const mode = window.localStorage.getItem('user-theme');
 // console.log(mode);
 // console.log(toggle);
 
+let isChecked;
+
 if (mode === 'dark') {
   toggle.setAttribute('checked', 'checked');
   toggleNav.setAttribute('checked', 'checked');
