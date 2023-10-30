@@ -36,6 +36,8 @@ if (mode === 'dark') {
   headerSearchIcon.classList.add('dark-theme');
 
   calendarWrapper.classList.add('dark-theme');
+} else {
+  isChecked = false;
 }
 
 toggle.addEventListener('input', e => {
